@@ -79,7 +79,11 @@ li {
 }
 
 .nav-bar {
-  background: linear-gradient(-90deg, #84cf6a, #16c0b0);
+  background: linear-gradient(
+    109.6deg,
+    rgba(0, 0, 0, 0.93) 11.2%,
+    rgb(63, 61, 61) 78.9%
+  );
   height: 60px;
   margin-bottom: 25px;
   -webkit-box-shadow: 0px 2px 15px -12px rgba(0, 0, 0, 0.57);
@@ -107,8 +111,7 @@ p {
   flex-wrap: wrap;
 }
 
-.product-image,
-.product-info {
+.product-image {
   width: 50%;
   margin-top: 40px;
 }
